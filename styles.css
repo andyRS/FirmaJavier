@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Almarose-Black";
+	src: url("imagenes/Fuentes/Almarose-Black.otf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Almarose-Regular";
+	src: url("imagenes/Fuentes/Almarose-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Almarose-Medium";
+	src: url("imagenes/Fuentes/Almarose-Medium.otf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    margin: 0px auto;
+    width: 90%;
+    
+
+}
+
+.imagen-logo img {
+	display: block;
+	width: 600px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+
+
+#columna1 {
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	left: 312px;
+
+}
+#columna2 {
+	display: block;
+	margin: 0px auto;
+	left: 689px;
+	position: relative;
+	top: -59px;
+}
+
+#columna1, #columna2 tr>td{
+    font-size: 21px;
+}
+
+
+
+.clearfix{
+    clear: both;
+    float: none;
+}
